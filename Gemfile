@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.6'
-gem 'sass-rails', '~> 5.0'
+gem 'rails', '5.2.4.3'
+gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
@@ -12,5 +12,5 @@ group :development, :test do
 end
 
 group :development do
-  gem 'spring'
+  gem 'spring', '>= 2.0.1'
 end
